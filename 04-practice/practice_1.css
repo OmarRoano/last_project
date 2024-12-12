@@ -1,0 +1,43 @@
+body{
+    font-family: "Urbanist", sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.wrapper_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper_bottom_right{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+.wrapper_top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.wrapper_top_nav nav{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px
+}
+h5{
+    font-weight: 400;
+    font-size: 15px;
+}
+.logo{
+    margin-top: 20px;
+}
+ul{
+    padding-inline-start: 0px;
+}
+
+li{
+    list-style: none;
+}

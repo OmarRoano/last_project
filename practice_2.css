@@ -1,0 +1,47 @@
+ul{
+    padding-inline-start: 0px;
+}
+
+li{
+    list-style: none;
+}
+body{
+    font-family: "Urbanist", sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.wrapper_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper_bottom_right{
+    padding-left: 10px;
+    padding-right: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+.wrapper_bottom_left{
+
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+.wrapper_top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.wrapper_top_nav nav{
+    display: inline-block;
+    padding-left: 70px;
+    padding-right: 70px
+}
+h5{
+    font-weight: 400;
+    font-size: 15px;
+}
