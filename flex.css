@@ -1,0 +1,54 @@
+.box_1{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.box_2{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+.box_3{
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+.box_4{
+    width: 100px;
+    height: 100px;
+    background: orange;
+}
+.box_5{
+    width: 100px;
+    height: 100px;
+    background: olive;
+}
+.box_6{
+    width: 100px;
+    height: 100px;
+    background: aqua;
+}
+.box_7{
+    width: 100px;
+    height: 100px;
+    background: darkred;
+}
+.box_8{
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+}
+.box_9{
+    width: 100px;
+    height: 100px;
+    background: chartreuse;
+}
+.flex{
+    display: flex;
+    height: 250px;
+    /*flex-direction: row;*/
+    /*justify-content: space-around; modifica el eje X*/
+    /*align-items: center; modifica el eje Y*/
+    /*flex-wrap: wrap; hace saltos de línea automatico de los elentos (wrap) o los acomoda en una sola linea (nowrap)*/
+    flex-wrap: wrap; 
+}
