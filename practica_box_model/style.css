@@ -1,0 +1,17 @@
+body{
+    color: white;
+    background: white;
+}
+.title_h5{
+    background: purple;
+    padding: 30px;
+    border: 5px double blue;
+    margin: 10px;
+}
+button{
+    background: black;
+    color: white;
+    padding: 30px;
+    border: 5px solid red;
+    margin: 10px;
+}
