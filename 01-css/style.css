@@ -1,0 +1,78 @@
+/*.tag_product{
+    color: red;
+}
+.wrapper_card{
+    color: green;
+    font-size: 50px;
+}
+.wrapper_card{
+    color: yellow;
+}*/
+/*Selector universal*/
+/*
+.product_des{
+    background: blue;
+}
+p{
+    background: yellowgreen;
+}
+*{
+    background: red ; *!important *
+}
+#unique_des{
+    background: aqua;
+}
+*/
+
+li{
+    background: orange !important; 
+    color:black !important ;
+}
+
+#tag_1{
+    background: red;
+}
+
+#title_h3 {
+    background: yellowgreen;
+    color: black;
+    font-size: 50px;
+}
+
+*{
+    background: black;
+    color: white;
+}
+h3 + p{
+    background: palevioletred;
+}
+
+.product_des_2{
+    background: blue;
+}
+
+
+/*
+button {
+
+    background-color: grey; /* Color inicial del botón 
+  
+    color: white;
+  
+    padding: 10px 20px;
+  
+    border: none;
+    cursor: pointer;
+  
+    
+  
+  }
+  
+  button:hover {
+  
+    background-color: blue; /* Color del botón cuando el ratón pasa por encima 
+    
+  
+  }
+
+  */
