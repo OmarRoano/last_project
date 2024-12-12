@@ -1,0 +1,57 @@
+.px{
+    font-size: 10px;
+}
+.cm{
+    font-size: 0.5cm;
+}
+.mm{
+    font-size: 5mm;
+}
+.in{
+    font-size: 0.2in;
+}
+.pt{
+    font-size: 10pt;
+}
+.padre{
+    width: 50%;
+    height: 200px;
+    border: 2px solid red;
+    /*background: aqua;*/
+}
+.hijo{
+    width: 50%;
+    height: 50%;
+    background: black;
+}
+/*----------------em-------*/
+.padre-em{
+    font-size: 16px;
+}
+.hijo-em{
+    font-size: 2em;
+}
+/*--------------rem--------*/
+.padre-rem{
+    font-size: 3rem;
+}
+.hijo-rem{
+    font-size: 2rem;
+}
+
+html{
+    font-size: 16px;
+}
+.vw{
+    width: 25vw;
+    height: 100px;
+    background: red;
+}
+.vh{
+    width: 100px;
+    height: 25vh;
+    background: red;
+}
+.clamp{
+    font-size: clamp(10px, 10vw, 300px); /*hace que el font-size cresca conforme el ancho de la pantalla en proporcion */
+}
