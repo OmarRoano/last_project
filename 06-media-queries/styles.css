@@ -1,0 +1,50 @@
+.box-min-width{
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.box-max-width{
+    width: 150px;
+    height: 150px;
+    background: yellowgreen;
+}
+/*MIN WIDTH*/
+/*la Condicion que se ejecutara cuando haya un cambio de ancho*/
+/*desde 800px hacia delante*/
+/*deben definirse los comportamientos desde el px mas chico*/
+@media screen and (min-width:800px) {
+    .box-min-width{
+        width: 100px;
+        height: 100px;
+        background: blue;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:1500px) {
+    .box-min-width{
+        width: 150px;
+        height: 150px;
+        background: yellowgreen;
+    }
+}
+/*diseño tradicional*/
+/*MAX WIDTH*/ 
+/*la xondicion que se ejecutara cuando haya un cambio de ancho*/
+/*hasta 800px hacia delante*/
+/*deben definirse los comportamientos desde el px mas grande*/
+@media screen and (max-width:1500px) {
+    .box-max-width{
+        width: 100px;
+        height: 100px;
+        background: blue;
+    }
+}
+@media screen and (max-width:800px) {
+    .box-max-width{
+        width: 50px;
+        height: 50px;
+        background: red;
+    }
+}
