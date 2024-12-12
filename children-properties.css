@@ -1,0 +1,31 @@
+.father{
+    display: flex;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+
+}
+.children{
+    width: 200px;
+}
+.children_1{
+    height: 200px;
+    background: orange;
+    order: 2;
+    flex-shrink: 2; /*se define la velocidad y la cantidad en que se encoge si no hay suficiente espacio y si es 0 no se encoge
+    /*flex-grow: 1; /*se ajusta el ancho del elemento automaticamente  para rellenar el main axis */
+    align-self: flex-end;
+}
+.children_2{
+    height: 200px;
+    background: greenyellow;
+    order: 1;
+    flex-shrink: 1;
+    align-self: center;
+}
+.children_3{
+    background: aqua;
+    order: 0;
+    flex-shrink: 0;
+    align-self: stretch;
+}
