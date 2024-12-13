@@ -1,0 +1,107 @@
+/*
+.wrapper-rectangulos{
+    display: flex;
+    flex-direction: column; /*por defecto
+    margin-right: 40px;
+    width: 600px;
+    height: 600px;
+
+}
+.rectangulo-uno{
+    margin: 20px;
+    height: 100px;
+    width: 100%;
+    background: red;
+}
+.rectangulo-dos{
+    margin: 20px;
+    height: 100px;
+    width: 100%;
+    background: magenta;
+}
+.rectangulo-tres{
+    margin: 20px;
+    height: 100px;
+    width: 100%;
+    background: black;
+}
+.rectangulo-cuatro{
+    margin: 20px;
+    height: 100px;
+    width: 100%;
+    background: greenyellow;
+    display: none;
+}
+
+@media screen and (min-width: 800px){
+    .rectangulo-dos{
+        display: none;
+    }
+    .rectangulo-tres{
+        display: none;
+    }
+    .rectangulo-cuatro{
+        display: flex;
+    }
+}
+@media screen and (min-width: 1040px){
+    .rectangulo-dos{
+        display: flex;
+        align-self: stretch;
+    }
+    .rectangulo-tres{
+        display: flex;
+        align-self: stretch;
+    }
+    .wrapper-rectangulos{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 300px;
+        
+    }
+}
+
+*/
+.wrapper-rectangulos{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    flex-direction: column;  
+}
+.rectangulo-uno{
+    height: 30%;
+    width: 100%;
+    background: red;
+}
+.rectangulo-dos{
+    height: 30%;
+    width: 100%;
+    background: magenta;
+}
+.rectangulo-tres{
+    height: 30%;
+    width: 100%;
+    background: black;
+}
+.rectangulo-cuatro{
+    height: 30%;
+    width: 100%;
+    display: none;
+}
+@media screen and (min-width: 800px){
+    .wrapper-rectangulos{
+        gap: 10px;
+
+    
+    }
+    .rectangulo-dos{
+        display: none;
+    }
+    .rectangulo-tres{
+        display: none;
+    }
+    .rectangulo-cuatro{
+        background: greenyellow;
+        display: block;
+    }
+}
