@@ -161,3 +161,19 @@ h1 {
 .link:hover{
     background: #e8e5ff;
 }
+@media screen and (min-width: 480px){
+    .wrapper-description {
+        display: none;
+    } 
+    .img {
+        width: 100%;
+        max-width: 550px;
+        border-radius: 20px;
+    }
+    .wrapper-info {
+        max-width: 500px;
+    }
+    .logo_spectrum {
+        min-width: 350px;
+    }
+}
