@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-style: normal;
+    font-family: "DM Sans", sans-serif;
+    color: black;
+    background: #e8e5ff;
+}
+h1 {
+    font-size: 25px;
+}
+.wrapper-top {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    margin-top: 0.5vh;
+}
+
+.wrapper-description {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-box {
+    margin-bottom: 0.5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-info {
+    max-width: 355px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    background: white;
+    border: gray solid 1px;
+    padding-bottom: 20px;
+
+}
+
+.content-description {
+    max-width: 385px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: white;
+    border: gray solid 1px;
+}
+
+.logo_spectrum {
+    width: 240px;
+}
+
+.menu {
+    display: none;
+}
+
+#text-description {
+    margin: 0;
+    font-size: 15px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img {
+    width: 100%;
+    max-width: 415px;
+    border-radius: 20px;
+    min-height: 375px;
+    object-fit: cover;
+    border: gray solid 1px;
+}
+
+.logo_spectrum {
+    min-width: 125px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.button {
+    max-width: 185px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px;
+    align-items: center;
+    margin-top: 0px;
+    text-decoration-line: none;
+    background: #122130;
+}
+
+.wrapper-button-svg {
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-svg {
+    width: 10px;
+    height: auto;
+}
+
+.text-button {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+.text-button-link {
+    color: black;
+    font-size: 10px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+.link {
+    max-width: 185px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px;
+    align-items: center;
+    margin-top: 0px;
+    text-decoration-line: none;
+}
+.button:hover {
+    background: #5f4bf9;;
+}
+.link:hover{
+    background: #e8e5ff;
+}
